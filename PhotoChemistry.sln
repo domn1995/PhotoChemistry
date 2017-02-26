@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoChemistry", "PhotoChemistry\PhotoChemistry.csproj", "{0BB95BDD-63B8-4FC2-998B-3C64E54F6943}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoChemistry.Library", "PhotoChemistry.Library\PhotoChemistry.Library.csproj", "{348788B1-FBEC-487A-BFAF-6E11F6FFCB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoChemistry.Application", "PhotoChemistry.Application\PhotoChemistry.Application.csproj", "{CE7E5020-2386-449B-B309-9BEDCCBCAB6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0BB95BDD-63B8-4FC2-998B-3C64E54F6943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0BB95BDD-63B8-4FC2-998B-3C64E54F6943}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0BB95BDD-63B8-4FC2-998B-3C64E54F6943}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0BB95BDD-63B8-4FC2-998B-3C64E54F6943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348788B1-FBEC-487A-BFAF-6E11F6FFCB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348788B1-FBEC-487A-BFAF-6E11F6FFCB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348788B1-FBEC-487A-BFAF-6E11F6FFCB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348788B1-FBEC-487A-BFAF-6E11F6FFCB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7E5020-2386-449B-B309-9BEDCCBCAB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7E5020-2386-449B-B309-9BEDCCBCAB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7E5020-2386-449B-B309-9BEDCCBCAB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7E5020-2386-449B-B309-9BEDCCBCAB6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
